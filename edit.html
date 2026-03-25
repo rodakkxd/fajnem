@@ -1,0 +1,63 @@
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/_TNbiYKasPy_isTSEg2_UEzVaev4F8fO2lLunsHJ8_Ux2g3OzkSZyzpqvJG1woSj-WD4=w240-h480-rw">
+    <title>mObywatel - Edycja</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+</head>
+<body>
+    <style>
+        .filled .placeholder {
+            bottom: 50px;
+            font-size: 14px;
+            transition: 200ms;
+        }
+    </style>
+    <p class="logo_text">Edytuj dane z mDowodu</p><br><br>
+
+    <div class="upload">
+        <p class="error">To pole jest wymagane</p>
+        <img class="upload_uploaded">
+        <div class="upload_uploading"></div>
+        <div class="upload_grid">
+            <img class="upload_image" src="https://i.imgur.com/1lerane.png">
+            <p class="upload_text">Aktualizuj zdjęcie</p>
+        </div>
+    </div>
+
+    <div class="input_holder">
+        <input type="text" id="name" class="input" placeholder=" ">
+        <span class="placeholder">Imię (imiona)</span>
+        <p class="error">To pole jest wymagane</p>
+    </div>
+ 
+    <div class="input_holder">
+        <input type="text" id="surname" class="input" placeholder=" ">
+        <span class="placeholder">Nazwisko</span>
+        <p class="error">To pole jest wymagane</p>
+    </div>
+
+    <div class="input_holder">
+        <input type="text" id="nationality" class="input" placeholder=" ">
+        <span class="placeholder">Obywatelstwo</span>
+        <p class="error">To pole jest wymagane</p>
+    </div>
+
+    <div class="input_holder" style="margin-top: 60px;">
+        <input type="text" id="birthday" class="input" placeholder=" ">
+        <span class="placeholder">Data urodzenia (np. 01.01.2000)</span>
+        <p class="error">To pole jest wymagane</p>
+    </div>
+
+    <div class="input_holder" style="margin-top: 60px;">
+        <input type="text" id="pesel" class="input" placeholder=" ">
+        <span class="placeholder">Numer PESEL</span>
+        <p class="error">To pole jest wymagane</p>
+    </div>
+
+    <a class="go edit-go" style="margin-top: 50px;">Zapisz zmiany</a>
+    <a class="go cancel-go" style="background-color: #f1f2f4; color: #1f2125; font-weight: 500; margin-top: 15px; border: 1px solid #d5d9df; line-height: 48px;">Anuluj</a>
+
+    <script src="assets/edit.js"></script>
+    <script src="assets/manifest.js"></script>
+</body>
